@@ -1,0 +1,37 @@
+---
+title: "Analysis of Life Expectancy"
+author: "Kristen Woodberry"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Analysis of Life Expectancy by Continent
+
+We hypothesize that life expectancy is a function of time and location. This analysis attempts to check that relationship.
+
+**Note: This is a preliminary analysis and not meant for distribution to the public.**
+
+[Link to the github repository](https://github.com/kwoodber/2019-04-02-carpentries-mmc)
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
